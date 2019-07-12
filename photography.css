@@ -40,3 +40,18 @@ nav ul li .active{
   text-decoration: none;
 }
 
+.row{
+  width:100%;
+  text-align: center;
+}
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
