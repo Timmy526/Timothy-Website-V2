@@ -14,9 +14,4 @@ function showSlides(){
     setTimeout(showSlides, 3000);
 }
 
-var feed = new Instafeed({
-  get: 'tagged',
-  tagName: 'timogrophy',
-  clientId: '	9f2eb83968114915b43765cd98a30994'
-});
-feed.run();
+
