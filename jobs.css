@@ -1,6 +1,8 @@
 body{
-  background: rgb(131,164,212);
-  background: linear-gradient(180deg, rgba(131,164,212,1) 0%, rgba(182,251,255,1) 100%);
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 200% 200%;
+    position: relative;
+    animation:change 10s ease-in-out infinite;
 }
 
 nav{
@@ -8,7 +10,8 @@ nav{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #1354ed;
+  background-color: black;
+  background-size: 400% 400%;
 }
 
 nav li{
@@ -56,21 +59,15 @@ img{
   padding: 20px;
 }
 
-footer {
-  position: bottom;
-  left: 0;
-  bottom: 0;
-  padding: 10px;
-  width: 100%;
-  background-color:#03d5ff;
-  color: black;
-  text-align: center;
-}
+@keyframes change {
+  0%{
+      background-position: 0 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0 50%;
+  }
 
-footer i{
-  size: 150%;
-}
-
-footer ul{
-  list-style: none
 }
