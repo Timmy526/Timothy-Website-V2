@@ -1,3 +1,4 @@
+codeLanguage(evt, none);
 function codeLanguage(evt, language) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -18,11 +19,3 @@ function codeLanguage(evt, language) {
     document.getElementById(language).style.display = "block";
     evt.currentTarget.className += " active";
   }
-
-function hideAll(){
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-}
