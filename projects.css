@@ -67,24 +67,13 @@ img{
   padding: 20px;
 }
 
-@keyframes change {
-  0%{
-      background-position: 0 50%;
-  }
-  50%{
-      background-position: 100% 50%;
-  }
-  100%{
-      background-position: 0 50%;
-  }
-
-}
-
 /* Style the tab */
-.tab {
+.tab{
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background: linear-gradient(90deg, #BAF2BB, #BAF2D8, #BAD7F2, #F2BAC9, #F2E2BA);
+  background-size: 200%;
+  animation:change 10s ease-in-out infinite;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -111,7 +100,22 @@ img{
 /* Style the tab content */
 .tabcontent {
   display: none;
+  text-align: center;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
 }
+
+@keyframes change {
+  0%{
+      background-position: 0 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0 50%;
+  }
+
+}
+
