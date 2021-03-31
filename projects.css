@@ -73,7 +73,7 @@ img{
   border: 1px solid #ccc;
   background: linear-gradient(90deg, #BAF2BB, #BAF2D8, #BAD7F2, #F2BAC9, #F2E2BA);
   background-size: 200%;
-  animation:change 10s ease-in-out infinite;
+  animation:change 5s ease-in-out infinite;
 }
 
 /* Style the buttons that are used to open the tab content */
